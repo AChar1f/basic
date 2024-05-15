@@ -35,6 +35,50 @@
 
 //We use an array to store a collection of data. Objects are used to store people, places and information.
 //Objects are denoted by {} and after each value you input a comma.
+// null falls under the onjects in data types. null is an value that can be assigned to a variable that has been declared.
+// undefined means the varible has been declared but it hasnt been assigned.
+
+// Arithmetic operators: +, - , *, % (modulus), /, ** (exponent), ++, --
+
+//let numb1 = 2, numb2 = 4, numb3 = 5;
+
+//console.log(numb1 + numb2)
+//addition of the 2 numbers
+
+//console.log(numb1 + numb2 * numb3)
+//multiplication and division takes precedence over addition and subtraction.
+
+//console.log(numb2 / numb1)
+//division example
+
+//console.log(numb3 % numb1)
+//displays the remainder between two numbers in this case 5%2 where 2 goes twice into 5 leaving a remainder of 1.
+
+//console.log(numb3 ** numb1)
+//makes the equation into an exponent. (5^2=25)
+
+// Assignment operators: =, += *=, /=, %=, etc..
+//allows us to assign a value to a variable.
+
+//numb2 += numb1
+//console.log(numb2) shorthand for the one variable added to the other. Same as numb2 = numb2 + numb1
+//numb2 *= numb1
+//console.log(numb2) shorthand for the one variable multiplied to the other.
+
+// Comparison operators: ==, <, >, <=, >=, !=, ===
+
+//console.log(numb1 > numb2) Will result in a boolean and display false as 2 is not greater than 4.
+
+//console.log(numb1 == numb2) will only check for the value not datatype. Eg: numb 1 = '2' and numb2 = '2' it will be true.
+//console.log(numb1 === numb2) will check for the value and datatype.
+
+
+// Ternary operator: ? :
+// Logical operators: &&, ||, !
+//AND logic : T+T=T, T+F=F, F+F=F
+//OR Logic: T+T=T, T+F=T, F+F=F
+
+//console.log(numb2 == numb2 && numb1 < numb3) will result in true as 2 = 2 and both 2 and 4 individually are less than 5.
 
 
 /* 
