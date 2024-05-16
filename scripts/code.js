@@ -69,8 +69,8 @@
 
 //console.log(numb1 > numb2) Will result in a boolean and display false as 2 is not greater than 4.
 
-//console.log(numb1 == numb2) will only check for the value not datatype. Eg: numb 1 = '2' and numb2 = '2' it will be true.
-//console.log(numb1 === numb2) will check for the value and datatype.
+//console.log(numb1 == numb2) will only check for the value not datatype. Eg: numb 1 = '2' and numb2 = '2' it will be true. (typeof)?
+//console.log(numb1 === numb2) will check for the value and datatype. (instanceof)?
 
 
 // Ternary operator: ? :
@@ -79,6 +79,55 @@
 //OR Logic: T+T=T, T+F=T, F+F=F
 
 //console.log(numb2 == numb2 && numb1 < numb3) will result in true as 2 = 2 and both 2 and 4 individually are less than 5.
+
+//Typeof operators: typeof and instanceof
+//typeof checks the datatype
+//instanceof checks for the class of the datatype
+
+//console.log(typeof numb1) will return number.
+//let myArr = new Array()
+//myArr.push(5, 'Mint')
+//let obj1 = new Number(12)  when creating an object, make use of 'new' (to make a class: in this case being Number).
+//console.log(obj1 intanceof Array) will return false as they are not from the same class.
+//console.log(obj1 instanceof Number) will return true as it holds the class of 'Number'.
+
+//console.log(`Type of obj1: ${typeof obj1}`) checks the datatype of obj1
+
+//Bitwise operators (Binary operators): &, |, ~(NOT), ^(XOR), <<(left shift), >>(right shift).
+// &:  Use the AND logic and binary code where 0 is false and 1 is true
+/*
+console.log(2 & 3) will return 2 because of the equation below
+       
+         Apply AND logic
+    2 = 0010  0 is false
+    3 = 0011  1 is true
+ans   = 0010
+*/
+
+// |:
+/* consol.log(2 | 3)
+    Apply OR logic
+    2 = 0010  0 is false
+    3 = 0011  1  is true
+ans   = 0011
+
+*/
+
+// ~(NOT):
+// ^(XOR):
+
+/* 
+    2 & 3 =
+    2 = 0010
+    3 = 0011
+*/
+
+/* Ternary operator:
+
+let numb1 = new Number(12)
+console.log(numb1 instanceof Number ? `${numb1} is an onject of Number` : `${numb1} is not an object of Number`) 
+checks for the condition before the question mark. If true displays content after question mark. If false dislays content after colon.
+*/
 
 
 /* 
