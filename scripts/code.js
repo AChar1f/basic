@@ -1,3 +1,5 @@
+//div has 2 types of content innerText and textContent to target the div we need to select the textContent. When using getById selector we need to make use of the innerText. (when using a div for display)
+
 // when creating a variabel we need to make use of camelCase. Eg. let lastName 
 
 // when creating a class we need to make use of class case. Eg class Employee
